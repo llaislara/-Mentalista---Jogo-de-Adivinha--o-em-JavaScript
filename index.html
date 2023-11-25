@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - _Mentalista - Projeto</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="page-title">
+    Mentalista
+  </h1>
+</div>
+
+
+<div class="playGame" id="playGame">
+  <h1 class="playGameH1">
+    Você está pronto?
+  </h1>
+  <p class="playGameP">
+    Clique no play e vamos começar!
+  </p>
+  <div class="iconPlay" onclick="showMentalistaGame()">
+    <i class="fas fa-play-circle"></i>
+  </div>
+</div>
+
+<div class="mentalistaGame" id="mentalistaGame" style="display: none;">
+  <div class="row">
+    <div class="col" style="margin: -41px auto 25px auto;">
+      Insira um número para adivinhação maior que 0 e menor que 1000.
+    </div>
+    <div class="col">
+      <input type="text" placeholder="..." style="text-align: center;">
+      <i class="fas fa-paper-plane icon"></i>
+    </div>
+    <div class="w-100"></div>
+    <div class="resultados"></div>
+    <div class="jogarnovamente"></div>
+  </div>
+  <div class="iconBack" onclick="goBackToPlayGame()">
+    <i class="fas fa-undo"></i>
+  </div>
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  text-align: center;
+  margin-top: -69vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin-top: 10px;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
+
+
+.playGame{
+  background-color: white;
+  border-radius: 19px;
+  padding: 77px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 339px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.playGameH1{
+  text-align: center;
+  color: #000000;
+}
+
+.iconPlay {
+  font-size: 35px;
+  color: #17243b;
+  z-index: 2;
+}
+
+.iconPlay i {
+  cursor: pointer;
+  margin-right: 5px;
+  color: #17243b;
+  z-index: 2;
+}
+
+.iconBack {
+  font-size: 24px;
+  
+  margin: 68px auto -43px -383px;
+}
+
+.iconBack i {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 5px;
+  color: #17243b;
+}
+
+.mentalistaGame {
+  background-color: white;
+  border-radius: 19px;
+  padding: 77px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 339px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col {
+  padding: 10px; 
+  border-radius: 5px; 
+  margin: 5px; 
+}
+
+.w-100 {
+  width: 100%;
+  margin: 10px 0; 
+}
+
+input {
+  border: 1px solid #ccc; 
+  width: 126px;
+  height: 42px;
+  font-size: 25px;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 10px;
+  color: #041f42;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.btn-restart {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #17243b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
